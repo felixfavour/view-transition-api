@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bicycle One</title>
+    <style>
+      @view-transition {
+        navigation: auto;
+      }
+
+      ::view-transition-old(root),
+      ::view-transition-new(root) {
+        animation-duration: 0.5s;
+      }
+      body {
+        margin: 0;
+      }
+      img {
+        width: 90vw;
+        height: 90vh;
+        object-fit: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="img-wrapper" id="img-1">
+      <img src="/images/bicycle-1.jpeg" data-imgID="img-1" alt="" />
+    </div>
+  </body>
+</html>
